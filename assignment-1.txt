@@ -1,0 +1,98 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello'
+-87.8
+- 
+/ 
+  + 
+6 
+
+Solution:-
+
+*,-,/,+ ->these are expression
+'hello',-87.8,6 ->these are values
+
+
+
+2.What is the difference between string and variable?
+Solution:-
+The difference between string and varibale are:
+                    
+> string is a data type where a variable is a name which can holds some values of any data type.
+> always a string can be enclose within single inverted or double inverted("",'').
+> when we assign a variable it have some values followed by assignment operator i.e (=).
+> a variable is of any data type.
+
+3. Describe three different data types.
+Solution:-The 3 data types are integer,float,string.
+Integer:-It is whole number.
+         It can either positive or negative.
+         Ex:x=6,y=8
+         
+Float:-This data type is used to store positive or negative number with a decimal point.
+     Ex:a=23.45,b=65.6,c=-78.95
+
+String:-This represents a sequence of character.
+        Always a string is enclose in single inverted or double inverted.
+        Ex:a="hi",b="hello"
+
+4. What is an expression made up of? What do all expressions do?
+Solution:-An expression is a combination of operators and operands that is interpreted to produce some other value.
+Ex:a+b=c
+here a and b are the operands and + is the operands.
+Every expression produces some other values like,
+a=3
+b=5
+c=a+b     # this is an expression
+print(c)   # here we get the result of the expression
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Solution:-A statement is a complete line of code that performs some action,while an expression is any section of the code that evaluates to a value.
+
+x = 1   #this is an assignment statement.
+y = 6   #this is an assignment statement.
+
+a = x + y   #this is an expression
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Solution:-
+The output becomes 23 because initially the bacon is assign to the value 22 and after that it will be increment to 1 so it becomes 23.
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam' 
+'spam' * 3
+
+Solution"-
+In first case, it will be cocatenate.We know that 2 or more strings can concatenate with each other and after
+that it will produce a result of combination of these strings.
+In second case,it will multiply to 3 with the following string.
+
+In first case the result will be:- spamspamspam
+In second case the result will be:- spamspamsapm
+
+The output of the following code will be same.
+
+8.Why is eggs a valid variable name while 100 is invalid?
+Solution:-
+
+eggs is valid variable name because a variable name starts with alphabet while 100 is not a valid variable name because a variable name is not start with the digits.
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Solution:-
+
+For interger-> int()
+For floating-point number->float()
+For string->str()
+
+10.Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+Solution:-
+
+This expression cause an error because we can't concatenate string with integer.
+We fix it by:
+    We have make the integer to string like
+    'I have eaten ' + '99' + ' burritos.'
+
+
